@@ -70,6 +70,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -167,6 +168,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
+  cursor: pointer;
 }
 
 .main-solutions-button:hover,
@@ -174,13 +176,6 @@ img {
   background-color: #404bbf;
   cursor: pointer;
 }
-
-/* .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1128px;
-  height: 420px;
-} */
 
 .contacts-link:hover,
 .contacts-link:focus,
@@ -222,6 +217,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-list-text,
@@ -276,12 +272,12 @@ img {
 
 .team-list-names {
   text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -387,7 +383,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
