@@ -57,8 +57,7 @@ img {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -392,7 +391,6 @@ img {
 }
 
 .footer-text {
-  display: inline-block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
